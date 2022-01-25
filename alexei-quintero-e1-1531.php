@@ -28,14 +28,14 @@ Declare variable $lname_arr and assign
 it with array gotten from $lname_str; 
 */
 
-$lname_arr =  explode(", ", $lname_str);
+$lname_arr = explode(", ", $lname_str);
 
 /* 
 Declare variable $age_arr and assign 
 it with array gotten from $age_str; 
 */
 
-$age_arr =  explode(", ", $age_str);
+$age_arr = explode(", ", $age_str);
 
 echo "<pre>";
 print_r($fname_arr);
@@ -52,7 +52,7 @@ spaceBetweenTaksks();
 echo "<strong>Task 2</strong>";
 spaceBetweenTaksks();
 
-$i=0;//defines variable index
+$i=0; //defines variable index
 while($i < sizeof($fname_arr)){
     echo $fname_arr[$i] . "<br/>"; 
     $i++;
